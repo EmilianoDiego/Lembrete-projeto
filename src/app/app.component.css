@@ -1,0 +1,46 @@
+#tela1{
+    width: 1400px;
+    height: 900px;
+    margin-left: -15px;
+}
+#divcentro{
+    border: 4px solid;
+    position: absolute;
+    z-index: 99999;
+    top: 100px;
+    height: 300px;
+}
+#telafolha{
+    width: 465px;
+    height: 300px;
+
+}
+#login{
+    font-size: 20px;
+    font-weight: bold;
+    top: 20px;
+    position: absolute;
+    left: 35%;
+}
+#divemail{
+    top: -70%;
+    position: relative;
+    border-radius: 4px;
+    
+}
+#inputemail{
+    width: 100%;
+    outline-color: blueviolet;
+    
+}
+#divbutton{
+    top: -45%;
+    position: relative;
+    border-radius: 4px;
+
+}
+#button{
+    background-color: green;
+    font-weight: bold;
+    width: 100%;    
+}

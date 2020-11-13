@@ -1,0 +1,71 @@
+<app-tela-acesso></app-tela-acesso>
+
+<!--container geral-->
+<div class="container col-12">
+  <!--linha do titulo agenda-->
+  <div class="row ">
+    <div id="agenda" class="row col ">
+      <div id="agendalabel" class="col pt-3 offset-1">
+        <p>AGENDA</p>
+      </div>
+    </div>
+    <!--coluna da img de fundo-->
+    <div class="col ">
+      <img id="tela1" src="assets/img/tela1.jpg"></div>
+    <div style="background-color: brown; margin-right: 1%;" class="col "></div>
+    <div id="divfolha3" class=" row  col-md-6 col-12 offset-1 offset-md-3">
+      <img id="imgfolha1" src="assets/img/folha.jpg">
+    </div> 
+  </div>
+  <!--linha do formulario-->
+  <div id="divcol3" class="row  col-12">
+    <div class="col-2 ">
+    </div>
+    <!--coluna do formulario-->
+    <div class="col-8  pt-4">
+        <div id="divfolha1" class="container  mt-2">
+          <form>
+            <div class="row offset-0 offset-md-3 col-12 col-md-6">
+              <div class=" offset-3">
+                <label id="labellogin" for="emailInput">LOGIN DE ACESSO</label></div>
+              <input id="input" appEfeitos type="text" placeholder="DIGITE O EMAIL" class=" mt-3">
+            </div>
+            <div class="row  offset-0 offset-md-3 col-12 col-md-6">
+              <input id="input" appEfeitos  type="text" placeholder="DIGITE A SENHA"
+               class=" mt-3">
+            </div>
+            <div class="row  col-8 offset-1 offset-md-3 py-3 my-2">
+              <div class="  col-md-5 ">
+                <input type="checkbox"> lembrar-me
+              </div>
+              <div class="col order-2">
+                <a href="https://www.alura.com.br/"> esqueceu a senha?</a>
+              </div>
+            </div>
+          </form>
+          <div  id="idbutton" class="row  offset-3 offset-md-4 col-5">
+            <button id="button" class="btn btn-prinary btn-block" appEfeitos type="button">
+              <p style="color: aliceblue;">Enviar</p></button>
+          </div>
+      </div>
+    </div>
+</div>
+<!--rodape-->
+<footer class="row col-13 ">
+  <div class="row col-12  pt-2">
+    <div class="col  col-12 col-md-4">
+      <p id="nomerodape">FACULDADE SAO JUDAS</p>
+    </div>
+    <div class="col  col-12 col-md-4">
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+    </div>
+    <div class="col  col-12 col-md-4">
+      <p id="nomerodape">LOS-QUARENTENOS</p>
+    </div>
+  </div>
+</footer>

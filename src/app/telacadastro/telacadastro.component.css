@@ -1,0 +1,98 @@
+
+#posicao1{
+    background-color: aqua;
+}
+#posicao2{
+    background-color:blue;
+}
+#div2{
+    position: absolute;
+    top: 1%;
+}
+
+
+
+#tela1{
+    width: 108%;
+    height: 650px;
+}
+#container1{
+   margin-bottom: 100px;
+}
+#imgfolha1{
+    width: 80%;
+    height: 110%;
+    top:0%;
+
+    position: absolute;
+
+}
+#divcol3{
+    position: absolute;
+    top: 20%;
+
+}
+#divfolha1{
+    margin-left: 2%;
+    margin-top: 100px;
+}
+#divfolha{
+    position: absolute;
+    margin-bottom: 10px;
+}
+#input{
+    width: 100%;
+}
+#labellogin{
+    font-weight: bold;
+    font-size: 18px;
+}
+#agenda{
+    position: absolute;
+    margin-top: 1px;
+    z-index: 9999;
+}
+#agendalabel{
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 0 1px 0 #ccc,
+0 2px 0 #c9c9c9,
+0 3px 0 #bbb,
+0 4px 0 #b9b9b9,
+0 5px 0 #aaa,
+0 6px 1px rgba(0,0,0,.1),
+0 0 5px rgba(0,0,0,.1),
+0 1px 3px rgba(0,0,0,.3),
+0 3px 5px rgba(0,0,0,.2),
+0 5px 10px rgba(0,0,0,.25),
+0 10px 10px rgba(0,0,0,.2),
+0 20px 20px rgba(0,0,0,.15);
+    
+}
+footer{
+    background-color:black
+}
+#nomerodape{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+#button{
+    width: 100px;
+    height: 35px;
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    border-color: greenyellow;
+}
+#idbutton{
+    padding-left: 7%;
+}
+#divfolha3{
+    width: 80%;
+    height: 350px;
+    padding-left: 59px;
+    position: absolute;
+    top: 20%;
+}
