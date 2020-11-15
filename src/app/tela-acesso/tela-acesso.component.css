@@ -34,6 +34,17 @@
     position: absolute;
     top: -15%;
 }
+#botaolista{
+    background-color: white;
+    border-radius: 8px ;
+    width: 100%;
+    padding-left: 5%;
+    font-size: 20px;
+    font-weight: bolder;
+    text-shadow: 0 1px 0 #ccc,
+0 2px 0 #c9c9c9,
+0 3px 0 #bbb;
+}
 #tituloagenda{
     font-weight: bold;
     font-size: 50px;
@@ -51,11 +62,15 @@
 0 20px 20px rgba(0,0,0,.15);
     
 }
-#imglista{
-    width: 100%;
+
+#imglista2{
+    width: 92%;
+
     padding: 20%;
 }
-
+#imglista{
+    width: 30px;
+}
 footer{
     background-color:black
 }
@@ -65,34 +80,6 @@ footer{
     font-weight: bold;
 
 }
-#botaolista{
-    background-color: #b9b9b9;
-    border-radius: 3px;
-    padding: 10%;
-    margin-top: 13Px;
-}
-#botaolembrete{
-    background-color: #b9b9b9;
-    border-radius: 3px;
-    padding: 10%;
-    margin-top: 13Px;
-}
-#botaocalendario{
-    background-color: #b9b9b9;
-    border-radius: 3px;
-    padding: 10%;
-    margin-top: Px;
-}
-#botaorelogio{
-    background-color: #b9b9b9;
-    border-radius: 3px;
-    padding: 10%;
-    margin-top: 13Px;
-}
-#botaoconfiguracao{
-    background-color: #b9b9b9;
-    border-radius: 3px;
-    padding: 10%;
-    margin-top: 85%;
-}
+
+
 

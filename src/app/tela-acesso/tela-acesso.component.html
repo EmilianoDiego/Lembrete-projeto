@@ -1,72 +1,95 @@
 <!--container geral-->
 <div class="container-fluid ">
-    <div class="row">
-      <!--coluna da img de fundo-->
-      <div class="col ">
-        <img id="tela1" src="assets/img/tela1.jpg"></div>
-  
-      <div style="height: 700px; width: 108%; background-color:rgb(134, 104, 134); margin-right: 1%;" class="col-12  col-md-6"></div>  
-    </div>
-      <div id="divagenda" class="row  col-12 pt-2">
-      <div class="col ">
-          <p id="tituloagenda" class="pt-5 offset-3">AGENDA</p>
-          <p id="frase" class=" pt-2 col-12  offset-sm-0 offset-1 col-md-12" >Ola -nome-, organize sua vida com mais facilidade</p> 
-          <p id="horario" class=" offset-3  pt-2">09:00HS</p> 
-          <p id="data" class="offset-2 offset-sm-3 offset-md-1 col-sm-6 col-7 col-md-10  pt-2">quinta-feira, 19 de outubro de 2020</p>      
-      </div>
-      
-  <div class="col-12 col-md-7 ">
-  
-  <!--container das imagens de opcoes-->
-  <div id="divopcoesimagem" class="row pt-5 col-12 ">
-      <div  class="row col-12 ">
-      <div class="col-12 col-md-0 pt-2 "></div>
-      <div class="col-12 col-md-0  pt-2 "></div>
-      <div class="col-4 col-md-4 col-sm-3 col-xl-2 offset-xl-0 col-lg-3 pt-2  ">
-          <p >
-            <img id="imglista" src="assets/img/lista.png"></p>
-          <p >
-            <img id="imglista" src="assets/img/lembrete.png"></p>
-          <p >
-            <img id="imglista" src="assets/img/calendario.png"></p>
-          <p >
-            <img id="imglista" src="assets/img/relogio.png"></p>
-          <p >
-            <img id="imglista" src="assets/img/configuracao.png"></p>
-      </div>
-      <div class="col-4 col-md-4 col-sm-3 col-xl-2 col-lg-3 pt-2 ">
-    <p id="botaolista" >lista de lembrete</p>
-        <p id="botaolembrete">lista de lembrete</p>
-        <p id="botaocalendario">lista de lembrete</p>
-        <p id="botaorelogio">lista de lembrete</p>
-        <p id="botaoconfiguracao">lista de lembrete</p>
-      </div>
-      <div class="col pt-2 "></div>  
-      </div>   
-      </div>  
-      </div>      
+  <div class="row ">
+    <!--coluna da img de fundo-->
+    <div class="col ">
+      <img id="tela1" src="assets/img/tela1.jpg"></div>
+
+      <div style="background-image: url(assets/img/capaCaderno.jpg); height: 700px; width: 10px;  margin-right:1%;" class="col-12 border col-md-6"></div>  
   </div>
-  
-  <!--rodape-->
-      <footer class="row col-13 ">
-          <div class="row col-12  pt-2">
-            <div class="col  col-12 col-md-4">
-              <p id="nomerodape">FACULDADE SAO JUDAS</p>
-            </div>
-            <div class="col  col-12 col-md-4">
-              <p id="nomerodape">nome-aluno</p>
-              <p id="nomerodape">nome-aluno</p>
-              <p id="nomerodape">nome-aluno</p>
-              <p id="nomerodape">nome-aluno</p>
-              <p id="nomerodape">nome-aluno</p>
-              <p id="nomerodape">nome-aluno</p>
-            </div>
-            <div class="col  col-12 col-md-4">
-              <p id="nomerodape">LOS-QUARENTENOS</p>
-            </div>
+  <!--linha da apresentacao da agenda-->
+    <div id="divagenda" class="row  col-12 pt-2">
+    <div class="col ">
+        <p id="tituloagenda" class="pt-5 offset-4 offset-md-3">AGENDA</p>
+        <p id="frase" class=" pt-2 col-12  offset-sm-0 offset-1 col-md-12" >Ola -nome-, organize sua vida com mais facilidade</p> 
+        <p id="horario" class=" offset-3  pt-2">09:00HS</p> 
+        <p id="data" class="offset-2 offset-sm-3 offset-md-1 col-sm-6 col-7 col-md-10  pt-2">quinta-feira, 19 de outubro de 2020</p>      
+    </div>
+    
+<div class="col-12 col-md-7   ">
+<!--linha das imagens de opcoes-->
+<div id="divopcoesimagem" class="row pt-4 col-11 col-md-11 ">
+    <div  class="row col-12 ">
+      <!--linha da imagem/botao-lista-lembrete-->
+    <div  class="col-3">     
+      <p >
+        <img appEfeitos id="imglista2" src="assets/img/lista.png"></p>
+    </div>
+    <div  class=" col-9 pt-4">
+      <button appEfeitos id="botaolista" type="button" class="btn " >Lista de Lembretes
+        <img  id="imglista" src="assets/img/seta-amarela.png"></button>
+    </div>
+      <!--linha da imagem/botao-criar-lembrete-->
+    <div  class="col-3 ">
+      <p >
+        <img appEfeitos id="imglista2" src="assets/img/lembrete.png"></p>
+    </div>
+    <div  class="col-9 pt-4">
+      <button appEfeitos id="botaolista" type="button" class="btn " >Criar-Lembrete
+         <img  id="imglista" src="assets/img/seta-amarela.png"></button>
+    </div>
+    <!--linha da imagem/botao-calendario-->
+    <div class="  col-3">
+      <p class="  ">
+        <img appEfeitos id="imglista2" src="assets/img/calendario.png"></p>
+    </div>
+    <div  class="  col-9 pt-4  ">
+      <button appEfeitos id="botaolista" type="button" class="btn " >Lembretes
+        <img  id="imglista" src="assets/img/seta-amarela.png"></button>
+    </div>
+    <!--linha da imagem/botao-horario-livre-->
+    <div class="  col-3 ">
+      <p class="  ">
+        <img appEfeitos id="imglista2" src="assets/img/relogio.png"></p>
+    </div>
+    <div  class="  col-9  pt-4  ">
+      <button appEfeitos id="botaolista" type="button" class="btn " >Horarios
+        <img  id="imglista" src="assets/img/seta-amarela.png"></button>
+    </div>
+    <!--linha da imagem/botao-configuracoes-->
+    <div class="  col-3 ">
+      <p class="  ">
+        <img appEfeitos id="imglista2" src="assets/img/configuracao.png"></p>
+    </div>
+    <div  class="  col-9 pt-4  ">
+      <button appEfeitos id="botaolista" type="button" class="btn " >Configuracoes
+        <img  id="imglista" src="assets/img/seta-amarela.png"></button>
+    </div>
+    <div class="col pt-2 "></div>  
+    </div>   
+    </div>  
+    </div>      
+</div>
+
+<!--rodape-->
+    <footer class="row col-13 ">
+        <div class="row col-12  pt-2">
+          <div class="col  col-12 col-md-4">
+            <p id="nomerodape">FACULDADE SAO JUDAS</p>
           </div>
-        </footer>
-  
-  
-  
-  
+          <div class="col  col-12 col-md-4">
+            <p id="nomerodape">nome-aluno</p>
+            <p id="nomerodape">nome-aluno</p>
+            <p id="nomerodape">nome-aluno</p>
+            <p id="nomerodape">nome-aluno</p>
+            <p id="nomerodape">nome-aluno</p>
+            <p id="nomerodape">nome-aluno</p>
+          </div>
+          <div class="col col-12 col-md-4">
+            <p id="nomerodape">LOS-QUARENTENOS</p>
+          </div>
+        </div>
+      </footer>
+
+
+

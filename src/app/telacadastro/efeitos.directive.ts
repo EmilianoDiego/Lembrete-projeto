@@ -13,7 +13,7 @@ export class EfeitosDirective {
    @HostListener('mouseover')quandoMousePorCima(){
     this.renderer.setStyle(
       this.elementRef.nativeElement,
-      'box-shadow','1px 1px 8px ' 
+      'box-shadow','1px 4px 8px ' 
     )
   }
   @HostListener('mouseleave')quandoMouseSair(){
