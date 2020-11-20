@@ -1,0 +1,76 @@
+
+<div class="container col  border solid " >
+    <!--linha div inicial com imagem do fundo-->
+<div class="row col-12 border" id="divimgfundo">
+    <!--div com titulo-->
+    <div class="col-12 border pt-2 my-2">
+        <button type="button" id="buttonvoltar"> 
+            <img src="/assets/img/seta-amarela.png" id="imgtitulo">voltar</button>
+    <p id="titulo" class="my-1 pt-1" >
+       <img src="/assets/img/lembrete.png" class="my-2" style="width: 30px;">
+        CRIAR LEMBRETE</p>
+    </div>
+<div class="col-12 border pt-2">
+    <div class="col-10 offset-1 col-md-6 offset-md-3 border my-3" id="imgfundofolha">
+       <!--linha do label titulo-->
+        <div class="col-8 border my-1 pt-2"><label id="label" for="lembreteText" class="col-12" >
+            Titulo do Lembrete
+            <input  type="text" placeholder="digite o titulo" class="form-control"></label>
+        </div>
+        <!--linha do label lembrete-->
+        <div class=" form group col-12 border">
+            <label id="label" for="lembreteText" class="col-12" >
+            Lembrete 
+            <input  type="text" placeholder="digite seu lembrete" class="form-control" ></label>
+        </div>
+        <!--linha da lista de lembrete-->
+        <div class="border col-12">
+            <table id="label"  class="table table-striped table-hover mt-3">
+              <thead>
+                <tr>
+                  <th class="text-center">Lembretes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let lembrete of lembretes">
+                  <td class="text-center">{{lembrete}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <!--linha do botao salvar-->
+        <div class="col-4 offset-9 border">
+           <button type="button" style="background-color: chartreuse; " (click)="salvar()" >salvar</button>
+        </div>
+        <!--limha do botao apagar-->
+        <div class="col-4 offset-9 border">
+            <button type="button" style="background-color: rgb(218, 105, 105);"  >apagar</button>
+        </div>
+    
+    </div>
+    </div>
+
+</div>
+
+</div> 
+<div class="border row col-12">
+<footer class="border row col-12">
+  <div class="row col-12  pt-2">
+    <div class="col  col-12 col-md-4">
+      <p id="nomerodape">FACULDADE SAO JUDAS</p>
+    </div>
+    <div class="col  col-12 col-md-4">
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+      <p id="nomerodape">nome-aluno</p>
+    </div>
+    <div class="col col-12 col-md-4">
+      <p id="nomerodape">LOS-QUARENTENOS</p>
+    </div>
+  </div>
+</footer>
+</div>
+
