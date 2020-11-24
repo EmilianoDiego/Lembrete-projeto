@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TelaAcessoComponent implements OnInit {
 
+  data =new Date();
   constructor() { }
 
   ngOnInit(): void {

@@ -4,7 +4,8 @@
 <div class="row col-12 border" id="divimgfundo">
     <!--div com titulo-->
     <div class="col-12 border pt-2 my-2">
-        <button type="button" id="buttonvoltar"> 
+      <!--button voltar-->
+        <button type="button" appEfeitos id="buttonvoltar"> 
             <img src="/assets/img/seta-amarela.png" id="imgtitulo">voltar</button>
     <p id="titulo" class="my-1 pt-1" >
        <img src="/assets/img/lembrete.png" class="my-2" style="width: 30px;">
@@ -21,7 +22,8 @@
         <div class=" form group col-12 border">
             <label id="label" for="lembreteText" class="col-12" >
             Lembrete 
-            <input  type="text" placeholder="digite seu lembrete" class="form-control" ></label>
+            <input  type="text" placeholder="digite seu lembrete"
+             class="form-control"  [(ngModel)]="lembrete" ></label>
         </div>
         <!--linha da lista de lembrete-->
         <div class="border col-12">
@@ -40,11 +42,11 @@
           </div>
         <!--linha do botao salvar-->
         <div class="col-4 offset-9 border">
-           <button type="button" style="background-color: chartreuse; " (click)="salvar()" >salvar</button>
+           <button type="button" appEfeitos style="background-color: chartreuse; " (click)="salvar()" >salvar</button>
         </div>
         <!--limha do botao apagar-->
         <div class="col-4 offset-9 border">
-            <button type="button" style="background-color: rgb(218, 105, 105);"  >apagar</button>
+            <button type="button" appEfeitos style="background-color: rgb(218, 105, 105);"  >apagar</button>
         </div>
     
     </div>

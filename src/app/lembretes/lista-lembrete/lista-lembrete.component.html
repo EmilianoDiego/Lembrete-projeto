@@ -1,0 +1,11 @@
+<mat-accordion *ngIf="lembretes.length>0">
+    <mat-expansion-panel *ngFor="let lembrete2 of lembretes">
+        <mat-expansion-panel-header>
+            titulo:{{lembrete2.titulo}}
+        </mat-expansion-panel-header>
+        <p >lembrete:{{lembrete2.lembrete}}</p>
+    </mat-expansion-panel>
+</mat-accordion>
+<p class="mat-body-1" style="text-align:center;" *ngIf="lembretes.length<=0">
+nenhum lembrete cadastrado.
+</p>

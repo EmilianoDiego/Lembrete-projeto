@@ -11,10 +11,12 @@
     <div id="divagenda" class="row  col-12 pt-2">
     <div class="col ">
         <p id="tituloagenda" class="pt-5 offset-4 offset-md-3">AGENDA</p>
-        <p id="frase" class=" pt-2 col-12  offset-sm-0 offset-1 col-md-12" >Ola -nome-, organize sua vida com mais facilidade</p> 
-        <p id="horario" class=" offset-3  pt-2">09:00HS</p> 
-        <p id="data" class="offset-2 offset-sm-3 offset-md-1 col-sm-6 col-7 col-md-10  pt-2">quinta-feira, 19 de outubro de 2020</p>      
-    </div>
+        <p id="frase" class=" pt-2 col-12  offset-md-1 offset-1 col-md-12" >Ola -nome-, organize sua vida com mais facilidade</p> 
+        <!--apresentacao de horario e data-->
+        <p id="horario" class=" offset-4   pt-1">{{data|date:'h:mm a '}}</p> 
+        <p id="data" class="offset-2 offset-sm-3 offset-md-2 col-sm-6 col-7 col-md-10  ">{{data|date:"dd/MMMM/yyy"}}</p>      
+
+      </div>
     
 <div class="col-12 col-md-7   ">
 <!--linha das imagens de opcoes-->

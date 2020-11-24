@@ -1,0 +1,41 @@
+#divimgfundo{
+    background-image: url('/assets/img/capaCaderno3.jpg');
+    background-size: 130%;
+    background-repeat: no-repeat;
+
+}
+footer{
+    background-color:black;
+    color: aliceblue;
+}
+#titulo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 7px;
+    border-color: black;
+    border-style: solid;
+}
+#imgtitulo{
+    width: 40px;
+    -webkit-transform: rotate(90deg);
+}
+#buttonvoltar{
+    border-radius: 5px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+#imgfundofolha{
+    background-image: url('/assets/img/folha.jpg');
+    background-size: 100%;
+
+}
+#label{
+    background-color:rgb(209, 206, 206);
+    border-radius: 5px;
+    border: black;
+    border:solid;
+    font-weight: bold;
+    
+}

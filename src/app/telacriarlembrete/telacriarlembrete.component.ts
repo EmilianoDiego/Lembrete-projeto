@@ -10,8 +10,8 @@ export class TelacriarlembreteComponent {
   lembrete:string;
 
   salvar(){
-    this.lembretes=[this.lembrete,...this.lembretes];
-    this.lembrete='';
+    this.lembretes=[this.lembrete, ...this.lembretes];
+    this.lembrete="";
   }
 
 }
